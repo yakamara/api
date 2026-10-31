@@ -1,11 +1,11 @@
 <?php
 
-namespace FriendsOfRedaxo\Api\RoutePackage\Backend;
+namespace Yakamara\Api\RoutePackage\Backend;
 
-use FriendsOfRedaxo\Api\Auth\BackendUser;
-use FriendsOfRedaxo\Api\RouteCollection;
-use FriendsOfRedaxo\Api\RoutePackage;
 use Override;
+use Yakamara\Api\Auth\BackendUser;
+use Yakamara\Api\RouteCollection;
+use Yakamara\Api\RoutePackage;
 
 use function in_array;
 

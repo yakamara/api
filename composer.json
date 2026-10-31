@@ -1,13 +1,17 @@
 {
-    "name": "friendsofredaxo/api",
+    "name": "yakamara/api",
     "type": "redaxo-addon",
     "description": "REST API for REDAXO 6: bearer-token secured endpoints for structure, media, users, languages and metainfo",
     "keywords": ["redaxo", "redaxo-addon", "api", "rest", "openapi"],
     "license": "MIT",
-    "homepage": "https://github.com/FriendsOfREDAXO/api",
+    "homepage": "https://github.com/yakamara/api",
     "authors": [
         {
-            "name": "FriendsOfREDAXO",
+            "name": "Yakamara Media GmbH & Co. KG",
+            "homepage": "https://yakamara.de"
+        },
+        {
+            "name": "Friends Of REDAXO",
             "homepage": "https://github.com/FriendsOfREDAXO"
         }
     ],
@@ -24,19 +28,19 @@
 
     "autoload": {
         "psr-4": {
-            "FriendsOfRedaxo\\Api\\": "src/"
+            "Yakamara\\Api\\": "src/"
         }
     },
 
     "autoload-dev": {
         "psr-4": {
-            "FriendsOfRedaxo\\Api\\Tests\\": "tests/"
+            "Yakamara\\Api\\Tests\\": "tests/"
         }
     },
 
     "extra": {
         "redaxo": {
-            "addon-class": "FriendsOfRedaxo\\Api\\ApiAddon"
+            "addon-class": "Yakamara\\Api\\ApiAddon"
         }
     },
 

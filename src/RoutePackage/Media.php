@@ -1,12 +1,8 @@
 <?php
 
-namespace FriendsOfRedaxo\Api\RoutePackage;
+namespace Yakamara\Api\RoutePackage;
 
 use Exception;
-use FriendsOfRedaxo\Api\Auth\BearerAuth;
-use FriendsOfRedaxo\Api\ListHelper;
-use FriendsOfRedaxo\Api\RouteCollection;
-use FriendsOfRedaxo\Api\RoutePackage;
 use InvalidArgumentException;
 use Override;
 use Redaxo\Core\Core;
@@ -27,6 +23,10 @@ use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Route;
 use Throwable;
+use Yakamara\Api\Auth\BearerAuth;
+use Yakamara\Api\ListHelper;
+use Yakamara\Api\RouteCollection;
+use Yakamara\Api\RoutePackage;
 
 use function array_key_exists;
 use function array_slice;

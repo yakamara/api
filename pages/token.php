@@ -2,9 +2,6 @@
 
 /** @var ApiAddon $this */
 
-use FriendsOfRedaxo\Api\ApiAddon;
-use FriendsOfRedaxo\Api\Backend\TokenData;
-use FriendsOfRedaxo\Api\Token;
 use Redaxo\Core\Backend\Accesskey;
 use Redaxo\Core\Database\Sql;
 use Redaxo\Core\Filesystem\Url;
@@ -14,12 +11,15 @@ use Redaxo\Core\Http\Response;
 use Redaxo\Core\Security\CsrfToken;
 use Redaxo\Core\Translation\I18n;
 use Redaxo\Core\Util\Formatter;
-use Redaxo\Core\View\Component\TableColumnType;
 use Redaxo\Core\View\Component\Section;
 use Redaxo\Core\View\Component\SectionVariant;
+use Redaxo\Core\View\Component\TableColumnType;
 use Redaxo\Core\View\DataList;
 use Redaxo\Core\View\Html;
 use Redaxo\Core\View\Message;
+use Yakamara\Api\ApiAddon;
+use Yakamara\Api\Backend\TokenData;
+use Yakamara\Api\Token;
 
 use function Redaxo\Core\View\escape;
 

@@ -6,9 +6,9 @@ plus a mirror of every endpoint under `/api/backend/…` that authenticates with
 The OpenAPI specification of everything that is registered is available in the backend under
 **API → OpenAPI** and can be tried out right there.
 
-This is the REDAXO 6 version of the addon (Composer package `friendsofredaxo/api`, namespace
-`FriendsOfRedaxo\Api`, branch `2.x`). The REDAXO 5 version lives on `main` and is not upgraded in
-place — see [Differences to the REDAXO 5 addon](#differences-to-the-redaxo-5-addon).
+This is the REDAXO 6 version of the addon (Composer package `yakamara/api`, namespace
+`Yakamara\Api`, branch `2.x`). The REDAXO 5 version lives in
+[FriendsOfREDAXO/api](https://github.com/FriendsOfREDAXO/api) and is not upgraded in place — see [Differences to the REDAXO 5 addon](#differences-to-the-redaxo-5-addon).
 
 ## Requirements
 
@@ -18,7 +18,7 @@ place — see [Differences to the REDAXO 5 addon](#differences-to-the-redaxo-5-a
 ## Installation
 
 ```bash
-composer require friendsofredaxo/api
+composer require yakamara/api:2.x-dev
 php bin/console addon:install api
 ```
 
@@ -143,9 +143,9 @@ PUT/PATCH remain available for JSON metadata updates.
 Register your own routes from an addon by subclassing `RoutePackage` and registering it in `boot()`:
 
 ```php
-use FriendsOfRedaxo\Api\Auth\BearerAuth;
-use FriendsOfRedaxo\Api\RouteCollection;
-use FriendsOfRedaxo\Api\RoutePackage;
+use Yakamara\Api\Auth\BearerAuth;
+use Yakamara\Api\RouteCollection;
+use Yakamara\Api\RoutePackage;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\Routing\Route;
 

@@ -1,10 +1,10 @@
 <?php
 
-namespace FriendsOfRedaxo\Api\Auth;
+namespace Yakamara\Api\Auth;
 
-use FriendsOfRedaxo\Api\Auth;
-use FriendsOfRedaxo\Api\Token;
 use Override;
+use Yakamara\Api\Auth;
+use Yakamara\Api\Token;
 
 use function in_array;
 

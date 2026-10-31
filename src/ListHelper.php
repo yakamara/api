@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace FriendsOfRedaxo\Api;
+namespace Yakamara\Api;
 
 use InvalidArgumentException;
 use Symfony\Component\HttpFoundation\JsonResponse;

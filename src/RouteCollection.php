@@ -1,6 +1,6 @@
 <?php
 
-namespace FriendsOfRedaxo\Api;
+namespace Yakamara\Api;
 
 use Exception;
 use Redaxo\Core\Backend\Controller;

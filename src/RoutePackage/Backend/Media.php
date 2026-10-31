@@ -1,6 +1,6 @@
 <?php
 
-namespace FriendsOfRedaxo\Api\RoutePackage\Backend;
+namespace Yakamara\Api\RoutePackage\Backend;
 
 use Override;
 

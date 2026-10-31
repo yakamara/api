@@ -1,11 +1,11 @@
 <?php
 
-namespace FriendsOfRedaxo\Api\Auth;
+namespace Yakamara\Api\Auth;
 
-use FriendsOfRedaxo\Api\Auth;
 use Override;
 use Redaxo\Core\Security\BackendLogin;
 use Redaxo\Core\Security\User;
+use Yakamara\Api\Auth;
 
 class BackendUser extends Auth
 {

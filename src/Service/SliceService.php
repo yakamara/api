@@ -1,6 +1,6 @@
 <?php
 
-namespace FriendsOfRedaxo\Api\Service;
+namespace Yakamara\Api\Service;
 
 use Redaxo\Core\Content\ArticleSlice;
 use Redaxo\Core\Content\Module;

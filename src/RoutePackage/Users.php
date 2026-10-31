@@ -1,14 +1,8 @@
 <?php
 
-namespace FriendsOfRedaxo\Api\RoutePackage;
+namespace Yakamara\Api\RoutePackage;
 
 use Exception;
-use FriendsOfRedaxo\Api\Auth\BearerAuth;
-use FriendsOfRedaxo\Api\ListHelper;
-use FriendsOfRedaxo\Api\RouteCollection;
-use FriendsOfRedaxo\Api\RoutePackage;
-use FriendsOfRedaxo\Api\Service\UserRoleService;
-use FriendsOfRedaxo\Api\Service\UserService;
 use InvalidArgumentException;
 use Override;
 use Redaxo\Core\ApiFunction\Exception\ApiFunctionException;
@@ -21,6 +15,12 @@ use Redaxo\Core\Security\UserRole;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Route;
+use Yakamara\Api\Auth\BearerAuth;
+use Yakamara\Api\ListHelper;
+use Yakamara\Api\RouteCollection;
+use Yakamara\Api\RoutePackage;
+use Yakamara\Api\Service\UserRoleService;
+use Yakamara\Api\Service\UserService;
 
 use function array_key_exists;
 use function count;

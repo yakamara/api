@@ -1,12 +1,8 @@
 <?php
 
-namespace FriendsOfRedaxo\Api\RoutePackage;
+namespace Yakamara\Api\RoutePackage;
 
 use Exception;
-use FriendsOfRedaxo\Api\Auth\BearerAuth;
-use FriendsOfRedaxo\Api\RouteCollection;
-use FriendsOfRedaxo\Api\RoutePackage;
-use FriendsOfRedaxo\Api\Token;
 use Override;
 use Redaxo\Core\Addon\Addon;
 use Redaxo\Core\Core;
@@ -22,6 +18,10 @@ use Symfony\Component\HttpFoundation\File\UploadedFile;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Route;
+use Yakamara\Api\Auth\BearerAuth;
+use Yakamara\Api\RouteCollection;
+use Yakamara\Api\RoutePackage;
+use Yakamara\Api\Token;
 
 use function count;
 use function dirname;

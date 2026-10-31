@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace FriendsOfRedaxo\Api\Tests;
+namespace Yakamara\Api\Tests;
 
 /**
  * `media/*` — media pool files and media categories.

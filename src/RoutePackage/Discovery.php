@@ -1,19 +1,19 @@
 <?php
 
-namespace FriendsOfRedaxo\Api\RoutePackage;
+namespace Yakamara\Api\RoutePackage;
 
 use Exception;
-use FriendsOfRedaxo\Api\Auth\BackendUser;
-use FriendsOfRedaxo\Api\Auth\BearerAuth;
-use FriendsOfRedaxo\Api\OpenAPIConfig;
-use FriendsOfRedaxo\Api\RouteCollection;
-use FriendsOfRedaxo\Api\RoutePackage;
-use FriendsOfRedaxo\Api\Token;
 use Override;
 use Redaxo\Core\Security\User;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Route;
+use Yakamara\Api\Auth\BackendUser;
+use Yakamara\Api\Auth\BearerAuth;
+use Yakamara\Api\OpenAPIConfig;
+use Yakamara\Api\RouteCollection;
+use Yakamara\Api\RoutePackage;
+use Yakamara\Api\Token;
 
 use function array_key_exists;
 use function count;

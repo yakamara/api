@@ -1,24 +1,7 @@
 <?php
 
-namespace FriendsOfRedaxo\Api;
+namespace Yakamara\Api;
 
-use FriendsOfRedaxo\Api\RoutePackage\Backend\Clangs as BackendClangs;
-use FriendsOfRedaxo\Api\RoutePackage\Backend\Discovery as BackendDiscovery;
-use FriendsOfRedaxo\Api\RoutePackage\Backend\Media as BackendMedia;
-use FriendsOfRedaxo\Api\RoutePackage\Backend\Metainfo as BackendMetainfo;
-use FriendsOfRedaxo\Api\RoutePackage\Backend\Modules as BackendModules;
-use FriendsOfRedaxo\Api\RoutePackage\Backend\Structure as BackendStructure;
-use FriendsOfRedaxo\Api\RoutePackage\Backend\Templates as BackendTemplates;
-use FriendsOfRedaxo\Api\RoutePackage\Backend\Users as BackendUsers;
-use FriendsOfRedaxo\Api\RoutePackage\Clangs;
-use FriendsOfRedaxo\Api\RoutePackage\Discovery;
-use FriendsOfRedaxo\Api\RoutePackage\Media;
-use FriendsOfRedaxo\Api\RoutePackage\MediaUpload;
-use FriendsOfRedaxo\Api\RoutePackage\Metainfo;
-use FriendsOfRedaxo\Api\RoutePackage\Modules;
-use FriendsOfRedaxo\Api\RoutePackage\Structure;
-use FriendsOfRedaxo\Api\RoutePackage\Templates;
-use FriendsOfRedaxo\Api\RoutePackage\Users;
 use Override;
 use Redaxo\Core\Addon\Addon;
 use Redaxo\Core\Addon\LoadOrder;
@@ -35,6 +18,23 @@ use Redaxo\Core\ExtensionPoint\Extension;
 use Redaxo\Core\ExtensionPoint\ExtensionLevel;
 use Redaxo\Core\Security\Permission;
 use Redaxo\Core\View\Asset;
+use Yakamara\Api\RoutePackage\Backend\Clangs as BackendClangs;
+use Yakamara\Api\RoutePackage\Backend\Discovery as BackendDiscovery;
+use Yakamara\Api\RoutePackage\Backend\Media as BackendMedia;
+use Yakamara\Api\RoutePackage\Backend\Metainfo as BackendMetainfo;
+use Yakamara\Api\RoutePackage\Backend\Modules as BackendModules;
+use Yakamara\Api\RoutePackage\Backend\Structure as BackendStructure;
+use Yakamara\Api\RoutePackage\Backend\Templates as BackendTemplates;
+use Yakamara\Api\RoutePackage\Backend\Users as BackendUsers;
+use Yakamara\Api\RoutePackage\Clangs;
+use Yakamara\Api\RoutePackage\Discovery;
+use Yakamara\Api\RoutePackage\Media;
+use Yakamara\Api\RoutePackage\MediaUpload;
+use Yakamara\Api\RoutePackage\Metainfo;
+use Yakamara\Api\RoutePackage\Modules;
+use Yakamara\Api\RoutePackage\Structure;
+use Yakamara\Api\RoutePackage\Templates;
+use Yakamara\Api\RoutePackage\Users;
 
 class ApiAddon extends Addon
 {

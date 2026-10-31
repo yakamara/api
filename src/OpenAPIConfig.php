@@ -1,10 +1,10 @@
 <?php
 
-namespace FriendsOfRedaxo\Api;
+namespace Yakamara\Api;
 
-use FriendsOfRedaxo\Api\Auth\BearerAuth;
 use Redaxo\Core\Translation\I18n;
 use Symfony\Component\Routing\Route;
+use Yakamara\Api\Auth\BearerAuth;
 
 use function count;
 use function is_array;

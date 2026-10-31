@@ -1,13 +1,8 @@
 <?php
 
-namespace FriendsOfRedaxo\Api\RoutePackage;
+namespace Yakamara\Api\RoutePackage;
 
 use Exception;
-use FriendsOfRedaxo\Api\Auth\BearerAuth;
-use FriendsOfRedaxo\Api\ListHelper;
-use FriendsOfRedaxo\Api\RouteCollection;
-use FriendsOfRedaxo\Api\RoutePackage;
-use FriendsOfRedaxo\Api\Service\FormValues;
 use InvalidArgumentException;
 use Override;
 use Redaxo\Core\Content\Article;
@@ -29,6 +24,11 @@ use Redaxo\Core\Security\User;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Route;
+use Yakamara\Api\Auth\BearerAuth;
+use Yakamara\Api\ListHelper;
+use Yakamara\Api\RouteCollection;
+use Yakamara\Api\RoutePackage;
+use Yakamara\Api\Service\FormValues;
 
 use function array_key_exists;
 use function count;

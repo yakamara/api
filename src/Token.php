@@ -1,13 +1,13 @@
 <?php
 
-namespace FriendsOfRedaxo\Api;
+namespace Yakamara\Api;
 
-use FriendsOfRedaxo\Api\Auth\BearerAuth;
 use IntlDateFormatter;
 use Redaxo\Core\Core;
 use Redaxo\Core\Database\Sql;
 use Redaxo\Core\Translation\I18n;
 use Redaxo\Core\Util\Formatter;
+use Yakamara\Api\Auth\BearerAuth;
 
 use function count;
 

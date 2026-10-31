@@ -1,13 +1,13 @@
 <?php
 
-namespace FriendsOfRedaxo\Api\Backend;
+namespace Yakamara\Api\Backend;
 
-use FriendsOfRedaxo\Api\Token;
 use Redaxo\Core\Form\Field\Checkbox;
 use Redaxo\Core\Form\Field\Choice;
 use Redaxo\Core\Form\Field\DateTimePicker;
 use Redaxo\Core\Form\Field\Text;
 use Redaxo\Core\Translation\Translatable;
+use Yakamara\Api\Token;
 
 /**
  * Form data of a row of `rex_api_token` (backend page "Token").

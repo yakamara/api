@@ -1,9 +1,9 @@
 <?php
 
-use FriendsOfRedaxo\Api\OpenAPIConfig;
-use FriendsOfRedaxo\Api\RouteCollection;
 use Redaxo\Core\Http\Request;
 use Redaxo\Core\Http\Response;
+use Yakamara\Api\OpenAPIConfig;
+use Yakamara\Api\RouteCollection;
 
 if ('1' === Request::request('load_config', 'string')) {
     $config = OpenAPIConfig::getByRoutes(RouteCollection::getRoutes());

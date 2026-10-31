@@ -1,6 +1,6 @@
 <?php
 
-namespace FriendsOfRedaxo\Api;
+namespace Yakamara\Api;
 
 use const ENT_HTML5;
 use const ENT_QUOTES;

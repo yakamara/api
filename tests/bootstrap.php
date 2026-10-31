@@ -26,7 +26,7 @@ foreach ($autoloadPaths as $autoloadPath) {
 
 // Autoloader for the test classes (works without composer install as well)
 spl_autoload_register(static function (string $class): void {
-    $prefix = 'FriendsOfRedaxo\\Api\\Tests\\';
+    $prefix = 'Yakamara\\Api\\Tests\\';
     $baseDir = __DIR__ . '/';
 
     $len = strlen($prefix);

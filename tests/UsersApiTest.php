@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace FriendsOfRedaxo\Api\Tests;
+namespace Yakamara\Api\Tests;
 
 use function count;
 
